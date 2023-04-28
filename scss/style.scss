@@ -1,0 +1,65 @@
+@import "variable.scss";
+
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background: $color-background;    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    width: 350px;
+    background: $color-white;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+    
+    img{
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+
+    }
+    .text{
+        display: flex;
+        width: 85%;
+        flex-direction: column;
+        text-align: center;
+        box-sizing: border-box;
+        
+
+        .title{
+            margin-top: 20px;
+            color:$color-primary;
+        }
+        
+        p{
+            margin-top: 20px;
+            font-size: 18px;
+            margin-bottom: 30px;
+            color:$color-secondary;
+        }
+    }
+}
+.attribution {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 11px;
+    text-align: center;
+
+    & a { color: hsl(228, 45%, 44%); }
+}
