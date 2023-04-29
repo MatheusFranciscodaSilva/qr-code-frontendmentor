@@ -8,14 +8,14 @@ body {
   background: hsl(212, 45%, 89%);
 }
 
-.main {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.container {
+.content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,23 +27,23 @@ body {
   padding: 15px;
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.13), 0 1px 4px 0 rgba(0, 0, 0, 0.11);
 }
-.container img {
+.content img {
   display: block;
   width: 100%;
   border-radius: 10px;
 }
-.container .text {
+.content .text {
   display: flex;
   width: 85%;
   flex-direction: column;
   text-align: center;
   box-sizing: border-box;
 }
-.container .text .title {
+.content .text .title {
   margin-top: 20px;
   color: hsl(218, 44%, 22%);
 }
-.container .text p {
+.content .text p {
   margin-top: 20px;
   font-size: 18px;
   margin-bottom: 30px;
